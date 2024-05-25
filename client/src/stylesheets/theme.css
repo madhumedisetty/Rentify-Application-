@@ -1,0 +1,52 @@
+:root {
+  --colour-primary: #441206;
+  --colour-secondary: #edd24e;
+}
+
+.bg-primary {
+  background-color: var(--colour-primary);
+}
+
+.bg-secondary {
+  background-color: var(--colour-secondary);
+}
+
+.bg-error {
+  background-color: #ff0000;
+}
+
+.bg-warning {
+  background-color: #cab603;
+}
+
+.bg-white {
+  background-color: rgb(181, 205, 199);
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.text-primary {
+  color: var(--colour-primary) !important;
+}
+
+.text-secondary {
+  color: var(--colour-secondary);
+}
+
+.text-black {
+  color: #000000;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.border-primary {
+  border-color: var(--colour-primary);
+}
+
+.border-secondary {
+  border-color: var(--colour-secondary);
+}
